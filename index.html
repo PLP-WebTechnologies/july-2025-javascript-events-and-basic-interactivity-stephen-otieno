@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Interactivity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <h1><a href="">Stemiot Softwares</a></h1>
+        </div>
+        <div id="navlinks">
+            <ul id="navlink-items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="dark-mode-toggle-container">
+        <button id="dark-mode-toggle">Dark Mode</button>
+
+    </div>
+
+    <div>
+        <h2 style="text-align: center; margin-top: 20px; color: brown;">Welcome to Stemiot Softwares</h2>
+        <br>
+    </div>
+
+    <h3 style="margin: 25px;">About</h3>
+
+    <section id="about">
+        <p style="font-size: 18px;" id="about-info">
+            Stemiot Softwares is a forward-thinking tech company driven by a passion for innovation, problem-solving,
+            and digital transformation. We specialize in building intelligent, user-centered software and web solutions
+            that address real-world challenges across industries. From intuitive mobile and web applications to secure
+            database systems and automation tools, our mission is to empower businesses, institutions, and communities
+            through technology. At Stemiot, we believe that great software should not only function — it should inspire,
+            simplify, and create lasting impact.
+        </p>
+    </section>
+
+    <div id="contact" class="contact-form">
+        <h3>Login</h3>
+        <form action="" id="MyForm">
+            <!-- Place inside your form, after each input -->
+            <label for="name">Name</label><br>
+            <input type="text" id="username" placeholder="Enter username">
+            <span class="form-error" id="username-error"></span>
+            <br><br>
+            <label for="email">Email</label> <br>
+            <input type="email" id="email" placeholder="johndoe@domain.com">
+            <span class="form-error" id="email-error"></span>
+            <br><br>
+            <label for="password">Password</label><br>
+            <input type="password" id="password" placeholder="Enter your password">
+            <span class="form-error" id="password-error"></span>
+            <br><br>
+
+            <input type="submit" id="submit-btn" class="login_button">
+
+        </form>
+
+    </div> <br><br>
+
+    <footer>
+        <p>&copy Stemiot Softwares 2025 | All rights reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
